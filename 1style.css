@@ -1,0 +1,125 @@
+#a, #b, #c, #d, #e, #f, #g{
+    position:relative;
+}
+
+#a{
+    min-height: 10vh;
+    background-color: red;
+}
+
+#b{
+    min-height: 10vh;
+    background-color: orange;
+}
+
+#c{
+    min-height: 10vh;
+    background-color: yellow;
+}
+
+#d{
+    min-height: 10vh;
+    background-color: green;
+}
+
+#e{
+    min-height: 10vh;
+    background-color: blue;
+}
+
+#f{
+    min-height: 10vh;
+    background-color: indigo;
+}
+
+#g{
+    min-height: 10vh;
+    background-color: violet;
+}
+
+#sky, #ground{
+    min-height: 10vh;
+    clear:both
+    
+}
+
+#sky{
+    background-color: aqua;
+    z-index: 1;
+}
+
+#ground{
+    background-color: darkgreen;
+    z-index: 1;
+}
+
+/* relative */
+
+
+
+#h, #i, #j, #k, #l, #m, #n, #foot{
+    position:absolute
+}
+
+
+#h{
+    min-height: 10vh;
+    background-color: red;
+    width:100%;
+}
+
+#i{
+    min-height: 10vh;
+    background-color: orange;
+      width:100%;
+      top:260px
+}
+
+#j{
+    min-height: 10vh;
+    background-color: yellow;
+    width:100%;
+    top:385px;
+}
+
+#k{
+    min-height: 10vh;
+    background-color: green;
+    width:100%;
+    top:506px;
+}
+
+#l{
+    min-height: 10vh;
+    background-color: blue;
+    width:100%;
+    bottom:500px;
+}
+
+#m{
+    min-height: 10vh;
+    background-color: indigo;
+    width:100%;
+    top:760px;
+}
+
+#n{
+    min-height: 10vh;
+    background-color: violet;
+    width:100%;
+    top:879px;
+}
+
+#foot{
+    background-color: darkgreen;
+    bottom: 128px;
+    width:100%;
+    min-height: 10vh;
+}
+
+#head{
+    background-color: aqua;
+    bottom:100px;
+    width:100%;
+    min-height: 10vh;
+}
